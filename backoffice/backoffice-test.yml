@@ -6,6 +6,4 @@ spring:
     password: 
     driverClassName: org.h2.Driver
   liquibase:
-    change-log: classpath:db/facilpay-db-ec-changelog.xml    
-sqlDialect: org.hibernate.dialect.H2Dialect
-entityPackage: br.com.facilpay.ecommerce.infra.entities
+    change-log: classpath:db/facilpay-db-ec-changelog.xml
