@@ -5,16 +5,9 @@ spring:
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
-sqlDialect: org.hibernate.dialect.PostgreSQLDialect
-entityPackage: br.com.facilpay.ecommerce.infra.entities
 
 # Database migration configuration
-config:
-  liquibase:
-    change-log: classpath:/db/facilpay-db-ec-changelog.xml
-    database-change-log-table: tbl_database_migrations
-    database-change-log-lock-table: tbl_database_migrations_lock
 logging:
   level:
     liquibase: INFO
-apiPackage: br.com.facilpay.ecommerce.entrypoint.rest
+
